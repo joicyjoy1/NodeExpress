@@ -1,0 +1,13 @@
+<html>
+<title>User Details</title>
+<body>
+    <h1>
+        <%="Welcome "+logged.username%>
+    </h1>
+    <% if(logged){%>
+        <p>
+            Email Id : <%=logged.email%>
+        </p>
+    <%}%>
+</body>
+</html>
